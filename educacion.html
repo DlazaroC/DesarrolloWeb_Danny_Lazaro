@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg width="250px" height="350px" viewBox="650 350 800 1500" style="border: 2px solid black;">
+          <image xlink:href="img/dlc.svg" width="3000px" height="3000px" x="20px" y="20px"></image>
+      </svg>
+      <h2>Curriculum Vitae</h2>
+    </header>
+    <article>
+      <h2>Datos Personales</h2>
+        <h3>Nobres y Apellidos:</h3> <p>Danny Lázaro Cahuna</p>
+        <h3>Fecha de Nacimiento:</h3> <p>30 de mayo</p>
+        <h3>Lugar de Nacimiento:</h3> <p>Arequipa - Perú</p>
+
+      <a href="experiencia.html" target="_blank">Experiencia</a> |
+      <a href="index.html" target="_blank">Inicio</a>
+
+      <h2>Educación</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institucion</th>
+            <th>Lugar</th>
+            <th>¿Culmino?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2000</td>
+            <td>SENATI</td>
+            <td>Arequipa</td>
+            <td>NO</td>
+          </tr>
+          <tr>
+            <td>2003</td>
+            <td>CESCA</td>
+            <td>Arequipa</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2006</td>
+            <td>ISUR</td>
+            <td>Arequipa</td>
+            <td>SI</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>Agregar Estudios</strong></p>
+      <form name="Agregar Estudios" autocomplete="on">
+        <fieldset>
+            <label for="Año">Año</label>
+            <select id="Año">
+              <option>2016</option>
+              <option>2017</option>
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+            </select>
+        </fieldset>
+        <fieldset>
+          <p>Tipo</p>
+          <input type="radio" name="gender" value="Universidad" checked> Universidad<br>
+          <input type="radio" name="gender" value="Instituto"> Instituto<br>
+          <input type="radio" name="gender" value="other"> Other
+        </fieldset>
+        <fieldset>
+          <label for="Institucion">Institucion</label>
+          <input type="text" name="name" id="Institucion" required>
+        </fieldset>
+        <fieldset>
+          <label for="Lugar">Lugar</label>
+          <textarea name="name_texto" rows="1" cols="50" id="Lugar"></textarea>
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+    </article>
+    <footer>
+        d.lazaro.c@gmail.com | 942833684 | Arequipa-Perú
+    </footer>
+  </body>
+</html>
